@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ echo '{"title":"제목입니다.","content":"내용입니다."}' | http POST 'https://api.nyoongoon.com/posts' \
+    'Content-Type:application/json;charset=UTF-8'
+----

@@ -1,0 +1,6 @@
+[source,bash]
+----
+$ curl 'https://api.nyoongoon.com/posts' -i -X POST \
+    -H 'Content-Type: application/json;charset=UTF-8' \
+    -d '{"title":"제목입니다.","content":"내용입니다."}'
+----

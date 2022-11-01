@@ -1,0 +1,46 @@
+/*@import "/src/assets/base.css/img/base.css";*/
+@import "./base.css";
+
+#app {
+    max-width: 100%;
+    margin: 0 auto 0;
+    padding: 0rem;
+
+    font-weight: normal;
+}
+
+
+
+@media (min-width: 1024px) {
+    body {
+        display: block;
+        place-items: center;
+    }
+
+    #app {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto 0;
+        padding: 0;
+    }
+}
+
+
+/* #section01 {background-color: rgb(255, 95, 69);} */
+
+.my-arrow { cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    width: 70px;
+    height: 90px;
+    z-index: 990;
+    -webkit-appearance: none;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+}
+
+.my-arrow.left { left: 35px; }
+.my-arrow.right { right: 35px; }
+

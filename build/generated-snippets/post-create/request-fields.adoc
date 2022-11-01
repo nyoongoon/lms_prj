@@ -1,0 +1,14 @@
+|===
+|Path|Type|Description|Optional|Constraint
+
+|title
+|String
+|제목
+|
+|좋은 제목 입력해주세요.
+|content
+|String
+|내용
+|Y
+|
+|===
